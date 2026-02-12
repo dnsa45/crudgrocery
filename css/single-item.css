@@ -1,10 +1,37 @@
 .single-item {
   display: grid;
-  grid-template-columns: auto 0.9fr auto auto;
+  grid-template-columns: auto 1fr auto auto;
   column-gap: 1rem;
   align-items: center;
 }
 
 .single-item p {
   text-transform: capitalize;
+}
+.single-item input[type="checkbox"] {
+  cursor: pointer;
+  width: 1rem;
+  height: 1rem;
+}
+
+.single-item .btn {
+  cursor: pointer;
+  color: black;
+  background: whitesmoke;
+  border: black solid 1px;
+  border-radius: 0.25rem;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+}
+
+.single-item .btn:hover {
+  background: #fd7676;
+}
+
+.single-item .remove-btn {
+  background: whitesmoke;
+}
+
+.single-item .remove-btn:hover {
+  background: #da2f2f;
 }
