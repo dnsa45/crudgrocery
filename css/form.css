@@ -12,11 +12,13 @@ form h2 {
 
 .form-input {
   width: 100%;
-  padding: 0.375rem 0.75rem;
+  padding: 10px;
   border-radius: 0;
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
-  border: 1px solid #ddd;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border: 1px solid beige;
 }
 
 .form-input::placeholder {
@@ -29,12 +31,15 @@ form h2 {
   background: #06b6d4;
   border: transparent;
   border-radius: 0;
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
   padding: 0.375rem 0.75rem;
   text-transform: capitalize;
+  border: 1rem;
 }
 
 .form-control .btn:hover {
-  background: #0e7490;
+  background: green;
 }
