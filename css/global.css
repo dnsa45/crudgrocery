@@ -8,11 +8,10 @@
 }
 
 body {
-  background: beige;
+  background-color: radial-gradient(circle at center, #2aaf7c, #a6c1ee);
   font-family: Helvetica, sans-serif;
   font-weight: 400;
   line-height: 1.2;
-  color: #131010;
 }
 
 .section-center {
