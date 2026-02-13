@@ -12,11 +12,11 @@ form h2 {
 
 .form-input {
   width: 100%;
-  padding: 0.375rem 0.75rem;
+  padding: 10px;
   border-radius: 0;
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
-  border: 1px solid #ddd;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border: 1px solid beige;
 }
 
 .form-input::placeholder {

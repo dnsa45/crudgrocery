@@ -4,22 +4,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border-radius: 0.7ss5rem;
 }
 
 body {
-  background: #eee;
+  background: beige;
   font-family: Helvetica, sans-serif;
   font-weight: 400;
   line-height: 1.2;
-  color: #222;
+  color: #131010;
 }
 
 .section-center {
   margin: 0 auto;
   margin-top: 8rem;
   max-width: 30rem;
-  background: #fff;
-  border-radius: 0.25rem;
+  background: rgb(243, 158, 124);
+
   padding: 2rem;
   position: relative;
+  border: black solid 1px;
+  border-radius: 1rem;
 }
