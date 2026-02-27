@@ -17,6 +17,11 @@ export function createForm(editId, itemToEdit) {
       <button type="submit" class="btn">
         ${editId ? "edit item" : "add item"}
       </button>
+      <style>
+        .form-control {
+          gap: 0.5rem;
+        }
+      </style>
     </div>
   `;
 
